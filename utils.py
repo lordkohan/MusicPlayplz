@@ -23,7 +23,7 @@ try:
     import os
     import subprocess
     import sys
-    from pytgcalls.exceptions import GroupCallNotFoundError
+    from pytgcalls.exceptions import GroupCallNotFound
     from config import Config
     import ffmpeg
     from pyrogram import emoji
